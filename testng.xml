@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" configfailurepolicy="skip">
+
+<listeners>
+<listener class-name="com.test.admin.uiAutomation.Retry.Retry">com.test.admin.uiAutomation.Retry.Retry</listener>
+</listeners>
+	<test thread-count="5" parallel="tests" name="Testchrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+
+			<class
+				name="com.test.admin.uiAutomation.homePage.TC007_agentPage" />
+			
+
+
+		</classes>
+	</test> <!-- Test -->
+
+	<!-- <test thread-count="5" name="Testfirefox"> <parameter name="browser" 
+		value="firefox"/> <classes> <class name="com.test.admin.uiAutomation.homePage.TC006_verifyReport"/> 
+		<class name="com.test.admin.uiAutomation.homePage.TC001_VerifyLoginWithInvalidCredentials" 
+		/> <class name="com.test.admin.uiAutomation.homePage.TC003_verifyLoginWithDifferentRecords" 
+		/> <class name="com.test.admin.uiAutomation.homePage.TC003_verifyLoginWithDifferentRecords" 
+		/> <class name="com.test.admin.uiAutomation.homePage.TC004_CheckCallStatus"/> 
+		</classes> </test> Test -->
+
+
+
+
+
+</suite> <!-- Suite -->

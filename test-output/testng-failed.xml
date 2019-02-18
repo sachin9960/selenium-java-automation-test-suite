@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.test.admin.uiAutomation.Retry.Retry"/>
+  </listeners>
+  <test thread-count="5" name="Testchrome(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.test.admin.uiAutomation.homePage.TC007_agentPage">
+        <methods>
+          <include name="setUp"/>
+          <include name="getResult"/>
+          <include name="endTest"/>
+          <include name="agent_create_delete_modify"/>
+          <include name="setUpExtentReport"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.test.admin.uiAutomation.homePage.TC007_agentPage -->
+    </classes>
+  </test> <!-- Testchrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->

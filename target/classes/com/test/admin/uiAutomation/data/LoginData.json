@@ -1,0 +1,18 @@
+{
+	"Login Data" :
+	[
+		{
+			"UserName" : "sachinsingh9960@gmail.com",
+			"password" : "mypassword",
+			"runMode"  : "Y" 
+		},
+		
+		{
+			"UserName" : "sachinsing@gmail.com",
+			"password" : "mypasswordzxc",		
+			"runMode"  : "Y"
+		}
+	
+	]
+
+}
