@@ -1,22 +1,16 @@
 package com.test.admin.uiAutomation.homePage;
 
-import static org.junit.Assert.assertFalse;
-
 import java.util.Random;
 
 import org.apache.log4j.Logger;
-import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import com.aventstack.extentreports.Status;
 import com.test.admin.uiAutomation.testBase.TestBase;
 import com.test.admin.uiAutomation.uiActions.AgentPage;
 import com.test.admin.uiAutomation.uiActions.HomePage;
-
-import net.sourceforge.htmlunit.corejs.javascript.commonjs.module.provider.ParsedContentType;
 
 public class TC007_agentPage extends TestBase {
 
@@ -77,6 +71,7 @@ public class TC007_agentPage extends TestBase {
 		homepage = new HomePage(driver);
 		homepage.logintoapp("goodsell", "!goodsell_Playhouse?");
 		agentpage.cloneAgent("987", "password", "qweeert", Expected_Delivery_Message);
+		agentpage.CloseCloneFrame();
 	}
 
 	@Test(enabled = false)

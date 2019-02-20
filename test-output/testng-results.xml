@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="8" total="9" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="113837" started-at="2018-12-27T17:04:06Z" finished-at="2018-12-27T17:06:00Z">
+  <suite name="Suite" duration-ms="32526" started-at="2019-02-20T21:21:06Z" finished-at="2019-02-20T21:21:38Z">
     <groups>
     </groups>
-    <test name="Testchrome" duration-ms="113837" started-at="2018-12-27T17:04:06Z" finished-at="2018-12-27T17:06:00Z">
+    <test name="Testchrome" duration-ms="32526" started-at="2019-02-20T21:21:06Z" finished-at="2019-02-20T21:21:38Z">
       <class name="com.test.admin.uiAutomation.homePage.TC007_agentPage">
-        <test-method status="PASS" signature="setUpExtentReport()[pri:0, instance:com.test.admin.uiAutomation.homePage.TC007_agentPage@3578436e]" name="setUpExtentReport" is-config="true" duration-ms="322" started-at="2018-12-27T17:04:06Z" finished-at="2018-12-27T17:04:06Z">
+        <test-method status="PASS" signature="setUpExtentReport()[pri:0, instance:com.test.admin.uiAutomation.homePage.TC007_agentPage@47db50c5]" name="setUpExtentReport" is-config="true" duration-ms="172" started-at="2019-02-20T21:21:05Z" finished-at="2019-02-20T21:21:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpExtentReport -->
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.test.admin.uiAutomation.homePage.TC007_agentPage@3578436e]" name="setUp" is-config="true" duration-ms="7576" started-at="2018-12-27T17:04:06Z" finished-at="2018-12-27T17:04:13Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.test.admin.uiAutomation.homePage.TC007_agentPage@47db50c5]" name="setUp" is-config="true" duration-ms="9419" started-at="2019-02-20T21:21:06Z" finished-at="2019-02-20T21:21:15Z">
           <params>
             <param index="0">
               <value>
@@ -22,26 +22,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="agent_create_delete_modify()[pri:0, instance:com.test.admin.uiAutomation.homePage.TC007_agentPage@3578436e]" name="agent_create_delete_modify" duration-ms="106100" started-at="2018-12-27T17:04:13Z" finished-at="2018-12-27T17:06:00Z">
+        <test-method status="PASS" signature="Clone_Agent_With_3_Digits()[pri:0, instance:com.test.admin.uiAutomation.homePage.TC007_agentPage@47db50c5]" name="Clone_Agent_With_3_Digits" duration-ms="22856" started-at="2019-02-20T21:21:15Z" finished-at="2019-02-20T21:21:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- agent_create_delete_modify -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.admin.uiAutomation.homePage.TC007_agentPage@3578436e]" name="endTest" is-config="true" duration-ms="1" started-at="2018-12-27T17:06:00Z" finished-at="2018-12-27T17:06:00Z">
+        </test-method> <!-- Clone_Agent_With_3_Digits -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.admin.uiAutomation.homePage.TC007_agentPage@47db50c5]" name="endTest" is-config="true" duration-ms="1" started-at="2019-02-20T21:21:38Z" finished-at="2019-02-20T21:21:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.admin.uiAutomation.homePage.TC007_agentPage@3578436e]" name="getResult" is-config="true" duration-ms="141" started-at="2018-12-27T17:06:00Z" finished-at="2018-12-27T17:06:00Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.admin.uiAutomation.homePage.TC007_agentPage@47db50c5]" name="getResult" is-config="true" duration-ms="234" started-at="2019-02-20T21:21:38Z" finished-at="2019-02-20T21:21:38Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=agent_create_delete_modify status=SUCCESS method=TC007_agentPage.agent_create_delete_modify()[pri:0, instance:com.test.admin.uiAutomation.homePage.TC007_agentPage@3578436e] output={null}]]]>
+                <![CDATA[[TestResult name=Clone_Agent_With_3_Digits status=SUCCESS method=TC007_agentPage.Clone_Agent_With_3_Digits()[pri:0, instance:com.test.admin.uiAutomation.homePage.TC007_agentPage@47db50c5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.admin.uiAutomation.homePage.TC007_agentPage@3578436e]" name="tearDown" is-config="true" duration-ms="415" started-at="2018-12-27T17:06:00Z" finished-at="2018-12-27T17:06:00Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.admin.uiAutomation.homePage.TC007_agentPage@47db50c5]" name="tearDown" is-config="true" duration-ms="327" started-at="2019-02-20T21:21:38Z" finished-at="2019-02-20T21:21:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

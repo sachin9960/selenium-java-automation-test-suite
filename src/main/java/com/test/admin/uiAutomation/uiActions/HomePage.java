@@ -1,6 +1,5 @@
 package com.test.admin.uiAutomation.uiActions;
 
-import static org.junit.Assert.assertFalse;
 import static org.testng.Assert.assertTrue;
 
 import java.io.IOException;
@@ -13,7 +12,6 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import com.aventstack.extentreports.Status;
 import com.test.admin.uiAutomation.testBase.TestBase;
 
 public class HomePage extends TestBase {
