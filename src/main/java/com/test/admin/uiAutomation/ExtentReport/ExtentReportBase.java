@@ -31,7 +31,7 @@ public class ExtentReportBase {
 		// alternate location to save report :
 		// System.getProperty("user.dir")+"/test-output/report.html
 
-		htmlReporter = new ExtentHtmlReporter("/home/amit/eclipse-workspace/ContactCenter/test-output/ccreport.html");
+		htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir")+ "/test-output/report.html");
 		extent = new ExtentReports();
 		extent.attachReporter(htmlReporter);
 

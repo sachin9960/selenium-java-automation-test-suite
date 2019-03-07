@@ -47,7 +47,7 @@ public class TC007_agentPage extends TestBase {
 		Random rnd = new Random();
 		int n = 100000 + rnd.nextInt(900000);
 		String s = Integer.toString(n);
-		homepage.logintoapp("goodsell", "!goodsell_Playhouse?");
+		homepage.logintoapp("userid", "password");
 		agentpage.cloneAgent(s, "password", "automation", successfull_clone_message);
 		agentpage.CloseCloneFrame();
 	
