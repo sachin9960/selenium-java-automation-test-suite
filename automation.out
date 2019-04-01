@@ -9449,3 +9449,9 @@
 2018-12-27 10:38:05 INFO  TestBase:52 - browser is waiting for the page to load 
 2019-02-20 14:54:54 INFO  TestBase:39 - creating object of chrome
 2019-02-20 14:54:55 INFO  TestBase:47 - navigating to site url : http://x5admin-preprod.ytel.com
+2019-03-18 15:30:50 INFO  TestBase:39 - creating object of chrome
+2019-03-18 15:30:51 INFO  TestBase:47 - navigating to site url : http://x5admin-preprod.ytel.com
+2019-03-18 15:30:57 INFO  TestBase:51 - browser is waiting for the page to load 
+2019-03-25 09:37:00 INFO  TestBase:39 - creating object of chrome
+2019-03-25 09:37:03 INFO  TestBase:47 - navigating to site url : http://x5admin-preprod.ytel.com
+2019-03-25 09:37:08 INFO  TestBase:51 - browser is waiting for the page to load 
