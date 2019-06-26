@@ -69,7 +69,11 @@ public class TC007_agentPage extends TestBase {
 		test = extent.createTest("Clone Agent  Test Case 1", " Test with Agent ID containing Minimum 3 Digits ");
 		test.assignCategory("Regression Test");
 		homepage = new HomePage(driver);
+<<<<<<< HEAD
 		homepage.logintoapp("goodsell@ytel.com", "!goodsell_Playhouse?");
+=======
+		homepage.logintoapp("goodsell", "XXXXXXX");
+>>>>>>> e32766815a18b7b922ae34f381c8e84ade5c0a2f
 		agentpage.cloneAgent("987", "password", "qweeert", Expected_Delivery_Message);
 		agentpage.CloseCloneFrame();
 	}
@@ -79,7 +83,11 @@ public class TC007_agentPage extends TestBase {
 		test = extent.createTest("Clone Agent Test Case 2", " Test with Agent ID containing more then 7 Digits ");
 		test.assignCategory("Regression Test");
 		homepage = new HomePage(driver);
+<<<<<<< HEAD
 		homepage.logintoapp("goodsell@ytel.com", "!goodsell_Playhouse?");
+=======
+		homepage.logintoapp("goodsell", "XXXXXXX");
+>>>>>>> e32766815a18b7b922ae34f381c8e84ade5c0a2f
 		agentpage.cloneAgent("999999999", "password", "qweeert", Expected_Delivery_Message);
 
 	}
@@ -89,7 +97,11 @@ public class TC007_agentPage extends TestBase {
 		test = extent.createTest("Clone Agent Test Case 3", " Test with Agent ID containing only letters ");
 		test.assignCategory("Regression Test");
 		homepage = new HomePage(driver);
+<<<<<<< HEAD
 		homepage.logintoapp("goodsell@ytel.com", "!goodsell_Playhouse?");
+=======
+		homepage.logintoapp("goodsell", "!XXXXXXX?");
+>>>>>>> e32766815a18b7b922ae34f381c8e84ade5c0a2f
 		agentpage.cloneAgent("abcdef", "password", "qweeert", with_Letters_error_code);
 	}
 
@@ -98,7 +110,11 @@ public class TC007_agentPage extends TestBase {
 		test = extent.createTest("Clone Agent Test Case 4", " Test with Empty Agent ID");
 		test.assignCategory("Regression Test");
 		homepage = new HomePage(driver);
+<<<<<<< HEAD
 		homepage.logintoapp("goodsell@ytel.com", "!goodsell_Playhouse?");
+=======
+		homepage.logintoapp("goodsell", "!XXXXXXX?");
+>>>>>>> e32766815a18b7b922ae34f381c8e84ade5c0a2f
 		agentpage.cloneAgent("", "password", "qweeert", Empty_Agent_ID_error_code);
 
 	}
@@ -108,7 +124,11 @@ public class TC007_agentPage extends TestBase {
 		test = extent.createTest("Clone Agent Test Case 5", " Test with Invalid Password");
 		test.assignCategory("Regression Test");
 		homepage = new HomePage(driver);
+<<<<<<< HEAD
 		homepage.logintoapp("goodsell@ytel.com", "!goodsell_Playhouse?");
+=======
+		homepage.logintoapp("goodsell", "!XXXXXXX?");
+>>>>>>> e32766815a18b7b922ae34f381c8e84ade5c0a2f
 		agentpage.cloneAgent("7894345", "@#$%&", "qweeert", Password_invalid_error_code);
 
 	}
@@ -118,7 +138,11 @@ public class TC007_agentPage extends TestBase {
 		test = extent.createTest("Clone Agent Test Case 6", " Test with only one letter Password");
 		test.assignCategory("Regression Test");
 		homepage = new HomePage(driver);
+<<<<<<< HEAD
 		homepage.logintoapp("goodsell@ytel.com", "!goodsell_Playhouse?");
+=======
+		homepage.logintoapp("goodsell", "!XXXXXXX?");
+>>>>>>> e32766815a18b7b922ae34f381c8e84ade5c0a2f
 		agentpage.cloneAgent("7894345", "a", "qweeert", Password_with_one_letter_error_code);
 
 	}
@@ -128,7 +152,11 @@ public class TC007_agentPage extends TestBase {
 		test = extent.createTest("Clone Agent Test Case 7", " Test with empty Password");
 		test.assignCategory("Regression Test");
 		homepage = new HomePage(driver);
+<<<<<<< HEAD
 		homepage.logintoapp("goodsell@ytel.com", "!goodsell_Playhouse?");
+=======
+		homepage.logintoapp("goodsell", "!XXXXXXX?");
+>>>>>>> e32766815a18b7b922ae34f381c8e84ade5c0a2f
 		agentpage.cloneAgent("7894345", "", "qweeert", Empty_password_error_code);
 	}
 
@@ -137,10 +165,71 @@ public class TC007_agentPage extends TestBase {
 		test = extent.createTest("Clone Agent Test Case 8", " Test with Full Name only one letter");
 		test.assignCategory("Regression Test");
 		homepage = new HomePage(driver);
+<<<<<<< HEAD
 		homepage.logintoapp("goodsell@ytel.com", "!goodsell_Playhouse?");
 		agentpage.cloneAgent("7894345", "password", "v", Full_name_only_one_letter_error_code);
 	}
 
+=======
+		homepage.logintoapp("goodsell", "!XXXXXXX?");
+		agentpage.cloneAgent("7894345", "password", "v", Full_name_only_one_letter_error_code);
+	}
+
+	// @Test(enabled=true)
+	// public void Header_test() throws Exception {
+	// test = extent.createTest("Clone Agent Test Case 7", " Test with Full Name
+	// only one letter");
+	// test.assignCategory("Regression Test");
+	// homepage = new HomePage(driver);
+	// test.log(Status.INFO, "Logging to X5 Contact Center");
+	// homepage.loginToApplication("goodsell", "!XXXXXXX?");
+	// test.log(Status.INFO, "Hiding Chat Window ");
+	// homepage.hidechatwindow().click();
+	// test.log(Status.INFO, "Selecting Database");
+	// homepage.selectDatabase();
+	// test.log(Status.INFO, "Clicked on Agent Clone Button");
+	// agentpage.selectAgentOption();
+	// String s = agentpage.verifyPageTitle();
+	// test.log(Status.INFO, "Title of the page is : " + s);
+	// if (agentpage.AgentlistingHeader().getText().equals("Agents Listing")
+	// && agentpage.AgentIDText().getText().equals("Agent ID") &&
+	// agentpage.Name().getText().equals("Nam")
+	// && agentpage.Group().getText().equals("Group") &&
+	// agentpage.Active().getText().equals("Active")
+	// && agentpage.AgentStats().getText().equals("Agent Stats")
+	// && agentpage.Outbound().getText().equals("Outbound") &&
+	// agentpage.Inbound().getText().equals("Inbound")
+	// && agentpage.Campaign().getText().equals("Campaign")
+	// && agentpage.Callback().getText().equals("CallBack") &&
+	// agentpage.Modify().getText().equals("Modify")) {
+	// test.log(Status.INFO, "header 1 is : " +
+	// agentpage.AgentlistingHeader().getText());
+	// test.log(Status.INFO, "header 2 is : " + agentpage.Name().getText());
+	// test.log(Status.INFO, "header 3 is : " + agentpage.Group().getText());
+	// test.log(Status.INFO, "header 4 is : " + agentpage.Active().getText());
+	// test.log(Status.INFO, "header 5 is : " + agentpage.AgentStats().getText());
+	// test.log(Status.INFO, "header 6 is : " + agentpage.Outbound().getText());
+	// test.log(Status.INFO, "header 7 is : " + agentpage.Inbound().getText());
+	// test.log(Status.INFO, "header 8 is : " + agentpage.Campaign().getText());
+	// test.log(Status.INFO, "header 9 is : " + agentpage.Callback().getText());
+	// test.log(Status.INFO, "header 10 is : " + agentpage.Modify().getText());
+	// assertfalse(false);
+	// } else {
+	// test.log(Status.INFO, "header 1 is : " +
+	// agentpage.AgentlistingHeader().getText());
+	// test.log(Status.INFO, "header 2 is : " + agentpage.Name().getText());
+	// test.log(Status.INFO, "header 3 is : " + agentpage.Group().getText());
+	// test.log(Status.INFO, "header 4 is : " + agentpage.Active().getText());
+	// test.log(Status.INFO, "header 5 is : " + agentpage.AgentStats().getText());
+	// test.log(Status.INFO, "header 6 is : " + agentpage.Outbound().getText());
+	// test.log(Status.INFO, "header 7 is : " + agentpage.Inbound().getText());
+	// test.log(Status.INFO, "header 8 is : " + agentpage.Campaign().getText());
+	// test.log(Status.INFO, "header 9 is : " + agentpage.Callback().getText());
+	// test.log(Status.INFO, "header 10 is : " + agentpage.Modify().getText());
+	// assertFalse(false);
+	// }
+	// }
+>>>>>>> e32766815a18b7b922ae34f381c8e84ade5c0a2f
 
 	@AfterMethod
 	public void endTest() {
