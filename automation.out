@@ -9466,3 +9466,5 @@
 2019-06-25 14:41:44 INFO  TestBase:51 - browser is waiting for the page to load 
 2019-06-25 16:33:38 INFO  ReportPage:39 - clicked on call menu
 2019-06-25 16:33:40 INFO  ReportPage:48 - driver is inside inbound reports
+2019-06-26 13:51:58 INFO  ReportPage:39 - clicked on call menu
+2019-06-26 13:52:00 INFO  ReportPage:48 - driver is inside inbound reports
