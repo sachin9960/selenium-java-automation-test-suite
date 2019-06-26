@@ -10,7 +10,7 @@
 		<classes>
 
 			<class
-				name="com.test.admin.uiAutomation.homePage.TC007_agentPage" />
+				name="com.test.admin.uiAutomation.homePage.TC_ReportSection" />
 			
 
 

@@ -69,7 +69,7 @@ public class TC007_agentPage extends TestBase {
 		test = extent.createTest("Clone Agent  Test Case 1", " Test with Agent ID containing Minimum 3 Digits ");
 		test.assignCategory("Regression Test");
 		homepage = new HomePage(driver);
-		homepage.logintoapp("goodsell", "!goodsell_Playhouse?");
+		homepage.logintoapp("goodsell@ytel.com", "!goodsell_Playhouse?");
 		agentpage.cloneAgent("987", "password", "qweeert", Expected_Delivery_Message);
 		agentpage.CloseCloneFrame();
 	}
@@ -79,7 +79,7 @@ public class TC007_agentPage extends TestBase {
 		test = extent.createTest("Clone Agent Test Case 2", " Test with Agent ID containing more then 7 Digits ");
 		test.assignCategory("Regression Test");
 		homepage = new HomePage(driver);
-		homepage.logintoapp("goodsell", "!goodsell_Playhouse?");
+		homepage.logintoapp("goodsell@ytel.com", "!goodsell_Playhouse?");
 		agentpage.cloneAgent("999999999", "password", "qweeert", Expected_Delivery_Message);
 
 	}
@@ -89,7 +89,7 @@ public class TC007_agentPage extends TestBase {
 		test = extent.createTest("Clone Agent Test Case 3", " Test with Agent ID containing only letters ");
 		test.assignCategory("Regression Test");
 		homepage = new HomePage(driver);
-		homepage.logintoapp("goodsell", "!goodsell_Playhouse?");
+		homepage.logintoapp("goodsell@ytel.com", "!goodsell_Playhouse?");
 		agentpage.cloneAgent("abcdef", "password", "qweeert", with_Letters_error_code);
 	}
 
@@ -98,7 +98,7 @@ public class TC007_agentPage extends TestBase {
 		test = extent.createTest("Clone Agent Test Case 4", " Test with Empty Agent ID");
 		test.assignCategory("Regression Test");
 		homepage = new HomePage(driver);
-		homepage.logintoapp("goodsell", "!goodsell_Playhouse?");
+		homepage.logintoapp("goodsell@ytel.com", "!goodsell_Playhouse?");
 		agentpage.cloneAgent("", "password", "qweeert", Empty_Agent_ID_error_code);
 
 	}
@@ -108,7 +108,7 @@ public class TC007_agentPage extends TestBase {
 		test = extent.createTest("Clone Agent Test Case 5", " Test with Invalid Password");
 		test.assignCategory("Regression Test");
 		homepage = new HomePage(driver);
-		homepage.logintoapp("goodsell", "!goodsell_Playhouse?");
+		homepage.logintoapp("goodsell@ytel.com", "!goodsell_Playhouse?");
 		agentpage.cloneAgent("7894345", "@#$%&", "qweeert", Password_invalid_error_code);
 
 	}
@@ -118,7 +118,7 @@ public class TC007_agentPage extends TestBase {
 		test = extent.createTest("Clone Agent Test Case 6", " Test with only one letter Password");
 		test.assignCategory("Regression Test");
 		homepage = new HomePage(driver);
-		homepage.logintoapp("goodsell", "!goodsell_Playhouse?");
+		homepage.logintoapp("goodsell@ytel.com", "!goodsell_Playhouse?");
 		agentpage.cloneAgent("7894345", "a", "qweeert", Password_with_one_letter_error_code);
 
 	}
@@ -128,7 +128,7 @@ public class TC007_agentPage extends TestBase {
 		test = extent.createTest("Clone Agent Test Case 7", " Test with empty Password");
 		test.assignCategory("Regression Test");
 		homepage = new HomePage(driver);
-		homepage.logintoapp("goodsell", "!goodsell_Playhouse?");
+		homepage.logintoapp("goodsell@ytel.com", "!goodsell_Playhouse?");
 		agentpage.cloneAgent("7894345", "", "qweeert", Empty_password_error_code);
 	}
 
@@ -137,7 +137,7 @@ public class TC007_agentPage extends TestBase {
 		test = extent.createTest("Clone Agent Test Case 8", " Test with Full Name only one letter");
 		test.assignCategory("Regression Test");
 		homepage = new HomePage(driver);
-		homepage.logintoapp("goodsell", "!goodsell_Playhouse?");
+		homepage.logintoapp("goodsell@ytel.com", "!goodsell_Playhouse?");
 		agentpage.cloneAgent("7894345", "password", "v", Full_name_only_one_letter_error_code);
 	}
 
