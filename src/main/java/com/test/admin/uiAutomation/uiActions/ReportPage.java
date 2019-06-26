@@ -47,6 +47,11 @@ public class ReportPage extends TestBase{
 		System.out.println(driver);
 		log.info("driver is inside inbound reports");
 	}
+
+	public void checkvalues() {
+		// TODO Auto-generated method stub
+		
+	}
 	
 	
 }
