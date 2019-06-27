@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="27115" started-at="2019-06-27T00:03:00Z" finished-at="2019-06-27T00:03:27Z">
+  <suite name="Suite" duration-ms="31573" started-at="2019-06-27T20:16:17Z" finished-at="2019-06-27T20:16:48Z">
     <groups>
     </groups>
-    <test name="Testchrome" duration-ms="27115" started-at="2019-06-27T00:03:00Z" finished-at="2019-06-27T00:03:27Z">
+    <test name="Testchrome" duration-ms="31573" started-at="2019-06-27T20:16:17Z" finished-at="2019-06-27T20:16:48Z">
       <class name="com.test.admin.uiAutomation.homePage.TC_ReportSection">
-        <test-method status="PASS" signature="setUpExtentReport()[pri:0, instance:com.test.admin.uiAutomation.homePage.TC_ReportSection@6eceb130]" name="setUpExtentReport" is-config="true" duration-ms="167" started-at="2019-06-27T00:03:00Z" finished-at="2019-06-27T00:03:00Z">
+        <test-method status="PASS" signature="setUpExtentReport()[pri:0, instance:com.test.admin.uiAutomation.homePage.TC_ReportSection@6eceb130]" name="setUpExtentReport" is-config="true" duration-ms="165" started-at="2019-06-27T20:16:17Z" finished-at="2019-06-27T20:16:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpExtentReport -->
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.test.admin.uiAutomation.homePage.TC_ReportSection@6eceb130]" name="setUp" is-config="true" duration-ms="6016" started-at="2019-06-27T00:03:00Z" finished-at="2019-06-27T00:03:06Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.test.admin.uiAutomation.homePage.TC_ReportSection@6eceb130]" name="setUp" is-config="true" duration-ms="8532" started-at="2019-06-27T20:16:17Z" finished-at="2019-06-27T20:16:25Z">
           <params>
             <param index="0">
               <value>
@@ -22,11 +22,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="Clone_Agent_With_Empty_AgentID()[pri:0, instance:com.test.admin.uiAutomation.homePage.TC_ReportSection@6eceb130]" name="Clone_Agent_With_Empty_AgentID" duration-ms="20757" started-at="2019-06-27T00:03:06Z" finished-at="2019-06-27T00:03:27Z">
+        <test-method status="PASS" signature="Clone_Agent_With_Empty_AgentID()[pri:0, instance:com.test.admin.uiAutomation.homePage.TC_ReportSection@6eceb130]" name="Clone_Agent_With_Empty_AgentID" duration-ms="22444" started-at="2019-06-27T20:16:25Z" finished-at="2019-06-27T20:16:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Clone_Agent_With_Empty_AgentID -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.admin.uiAutomation.homePage.TC_ReportSection@6eceb130]" name="getResult" is-config="true" duration-ms="330" started-at="2019-06-27T00:03:27Z" finished-at="2019-06-27T00:03:27Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.admin.uiAutomation.homePage.TC_ReportSection@6eceb130]" name="getResult" is-config="true" duration-ms="566" started-at="2019-06-27T20:16:48Z" finished-at="2019-06-27T20:16:48Z">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.admin.uiAutomation.homePage.TC_ReportSection@6eceb130]" name="tearDown" is-config="true" duration-ms="264" started-at="2019-06-27T00:03:27Z" finished-at="2019-06-27T00:03:27Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.admin.uiAutomation.homePage.TC_ReportSection@6eceb130]" name="tearDown" is-config="true" duration-ms="681" started-at="2019-06-27T20:16:48Z" finished-at="2019-06-27T20:16:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

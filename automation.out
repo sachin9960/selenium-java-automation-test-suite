@@ -9498,3 +9498,37 @@
 2019-06-26 16:31:26 INFO  ReportPage:56 - driver is inside inbound reports
 2019-06-26 17:03:23 INFO  ReportPage:50 - clicked on call menu
 2019-06-26 17:03:26 INFO  ReportPage:59 - driver is inside inbound reports
+2019-06-27 11:36:38 INFO  ReportPage:53 - clicked on call menu
+2019-06-27 11:36:40 INFO  ReportPage:62 - driver is inside inbound reports
+2019-06-27 11:39:22 INFO  ReportPage:53 - clicked on call menu
+2019-06-27 11:39:25 INFO  ReportPage:62 - driver is inside inbound reports
+2019-06-27 11:39:26 INFO  TestBase:39 - creating object of chrome
+2019-06-27 11:39:29 INFO  TestBase:47 - navigating to site url : http://x5admin-preprod.ytel.com
+2019-06-27 11:39:35 INFO  TestBase:51 - browser is waiting for the page to load 
+2019-06-27 11:39:50 INFO  ReportPage:53 - clicked on call menu
+2019-06-27 11:39:53 INFO  ReportPage:62 - driver is inside inbound reports
+2019-06-27 11:43:37 INFO  ReportPage:53 - clicked on call menu
+2019-06-27 11:43:39 INFO  ReportPage:62 - driver is inside inbound reports
+2019-06-27 11:47:19 INFO  ReportPage:53 - clicked on call menu
+2019-06-27 11:47:21 INFO  ReportPage:62 - driver is inside inbound reports
+2019-06-27 11:50:55 INFO  ReportPage:56 - clicked on call menu
+2019-06-27 11:50:57 INFO  ReportPage:65 - driver is inside inbound reports
+2019-06-27 11:52:12 INFO  ReportPage:56 - clicked on call menu
+2019-06-27 11:52:14 INFO  ReportPage:65 - driver is inside inbound reports
+2019-06-27 11:54:12 INFO  ReportPage:56 - clicked on call menu
+2019-06-27 11:54:14 INFO  ReportPage:65 - driver is inside inbound reports
+2019-06-27 13:00:33 INFO  ReportPage:55 - clicked on call menu
+2019-06-27 13:00:35 INFO  ReportPage:63 - driver is inside inbound reports
+2019-06-27 13:01:32 INFO  TestBase:39 - creating object of chrome
+2019-06-27 13:02:11 INFO  ReportPage:55 - clicked on call menu
+2019-06-27 13:02:13 INFO  ReportPage:63 - driver is inside inbound reports
+2019-06-27 13:02:33 INFO  TestBase:39 - creating object of chrome
+2019-06-27 13:02:35 INFO  TestBase:47 - navigating to site url : http://x5admin-preprod.ytel.com
+2019-06-27 13:10:18 INFO  ReportPage:55 - clicked on call menu
+2019-06-27 13:10:20 INFO  ReportPage:63 - driver is inside inbound reports
+2019-06-27 13:13:37 INFO  ReportPage:55 - clicked on call menu
+2019-06-27 13:13:40 INFO  ReportPage:63 - driver is inside inbound reports
+2019-06-27 13:15:05 INFO  ReportPage:55 - clicked on call menu
+2019-06-27 13:15:07 INFO  ReportPage:63 - driver is inside inbound reports
+2019-06-27 13:16:41 INFO  ReportPage:55 - clicked on call menu
+2019-06-27 13:16:42 INFO  ReportPage:63 - driver is inside inbound reports

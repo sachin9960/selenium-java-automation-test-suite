@@ -30,7 +30,7 @@ public class TC_ReportSection extends TestBase{
 	
 	
 	@Test(enabled = true)
-	public void Clone_Agent_With_Empty_AgentID() {
+	public void Clone_Agent_With_Empty_AgentID() throws InterruptedException {
 		test = extent.createTest("Report Test", " Inbound Report Test");
 		test.assignCategory("Regression Test");
 		homepage = new HomePage(driver);
@@ -38,8 +38,11 @@ public class TC_ReportSection extends TestBase{
 		reportpage = new ReportPage(driver);
 		reportpage.selectgroup();
 		reportpage.inboundReport();
-		reportpage.selectDate();
 		reportpage.selectInboundgroup();
+		reportpage.selectDate();
+		
+		
+		reportpage.tableMultigroup();
 
 	}
 	
