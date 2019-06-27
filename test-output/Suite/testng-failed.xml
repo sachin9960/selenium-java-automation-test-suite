@@ -7,16 +7,15 @@
   <test thread-count="5" name="Testchrome(failed)" parallel="tests">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.test.admin.uiAutomation.homePage.TC007_agentPage">
+      <class name="com.test.admin.uiAutomation.homePage.TC_ReportSection">
         <methods>
           <include name="setUp"/>
-          <include name="Clone_Agent_With_3_Digits"/>
           <include name="getResult"/>
-          <include name="endTest"/>
           <include name="setUpExtentReport"/>
           <include name="tearDown"/>
+          <include name="Clone_Agent_With_Empty_AgentID"/>
         </methods>
-      </class> <!-- com.test.admin.uiAutomation.homePage.TC007_agentPage -->
+      </class> <!-- com.test.admin.uiAutomation.homePage.TC_ReportSection -->
     </classes>
   </test> <!-- Testchrome(failed) -->
 </suite> <!-- Failed suite [Suite] -->

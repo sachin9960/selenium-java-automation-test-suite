@@ -9468,3 +9468,33 @@
 2019-06-25 16:33:40 INFO  ReportPage:48 - driver is inside inbound reports
 2019-06-26 13:51:58 INFO  ReportPage:39 - clicked on call menu
 2019-06-26 13:52:00 INFO  ReportPage:48 - driver is inside inbound reports
+2019-06-26 15:43:27 INFO  ReportPage:41 - clicked on call menu
+2019-06-26 15:43:28 INFO  ReportPage:50 - driver is inside inbound reports
+2019-06-26 15:44:53 INFO  ReportPage:41 - clicked on call menu
+2019-06-26 15:44:55 INFO  ReportPage:50 - driver is inside inbound reports
+2019-06-26 15:59:23 INFO  ReportPage:44 - clicked on call menu
+2019-06-26 15:59:25 INFO  ReportPage:53 - driver is inside inbound reports
+2019-06-26 16:12:59 INFO  ReportPage:44 - clicked on call menu
+2019-06-26 16:13:01 INFO  ReportPage:53 - driver is inside inbound reports
+2019-06-26 16:13:03 INFO  TestBase:39 - creating object of chrome
+2019-06-26 16:13:03 INFO  TestBase:47 - navigating to site url : http://x5admin-preprod.ytel.com
+2019-06-26 16:13:08 INFO  TestBase:51 - browser is waiting for the page to load 
+2019-06-26 16:13:23 INFO  ReportPage:44 - clicked on call menu
+2019-06-26 16:13:25 INFO  ReportPage:53 - driver is inside inbound reports
+2019-06-26 16:14:15 INFO  ReportPage:44 - clicked on call menu
+2019-06-26 16:14:18 INFO  ReportPage:53 - driver is inside inbound reports
+2019-06-26 16:14:19 INFO  TestBase:39 - creating object of chrome
+2019-06-26 16:14:19 INFO  TestBase:47 - navigating to site url : http://x5admin-preprod.ytel.com
+2019-06-26 16:14:24 INFO  TestBase:51 - browser is waiting for the page to load 
+2019-06-26 16:14:38 INFO  ReportPage:44 - clicked on call menu
+2019-06-26 16:14:40 INFO  ReportPage:53 - driver is inside inbound reports
+2019-06-26 16:16:13 INFO  ReportPage:44 - clicked on call menu
+2019-06-26 16:16:15 INFO  ReportPage:53 - driver is inside inbound reports
+2019-06-26 16:25:50 INFO  ReportPage:47 - clicked on call menu
+2019-06-26 16:25:52 INFO  ReportPage:56 - driver is inside inbound reports
+2019-06-26 16:29:08 INFO  ReportPage:47 - clicked on call menu
+2019-06-26 16:29:11 INFO  ReportPage:56 - driver is inside inbound reports
+2019-06-26 16:31:23 INFO  ReportPage:47 - clicked on call menu
+2019-06-26 16:31:26 INFO  ReportPage:56 - driver is inside inbound reports
+2019-06-26 17:03:23 INFO  ReportPage:50 - clicked on call menu
+2019-06-26 17:03:26 INFO  ReportPage:59 - driver is inside inbound reports

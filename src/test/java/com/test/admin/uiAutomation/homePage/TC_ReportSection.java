@@ -38,6 +38,8 @@ public class TC_ReportSection extends TestBase{
 		reportpage = new ReportPage(driver);
 		reportpage.selectgroup();
 		reportpage.inboundReport();
+		reportpage.selectDate();
+		reportpage.selectInboundgroup();
 
 	}
 	
