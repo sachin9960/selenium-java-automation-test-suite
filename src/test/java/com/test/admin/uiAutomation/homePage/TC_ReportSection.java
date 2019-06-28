@@ -42,7 +42,7 @@ public class TC_ReportSection extends TestBase{
 		reportpage.selectDate();
 		
 		
-		reportpage.tableMultigroup();
+		reportpage.getTableValues();
 
 	}
 	

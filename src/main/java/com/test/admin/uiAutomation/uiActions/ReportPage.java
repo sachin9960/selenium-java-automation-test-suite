@@ -80,30 +80,62 @@ public class ReportPage extends TestBase {
 
 	}
 
-	public void tableMultigroup() {
-		System.out.println("hello 1");
+	public void getTableValues() {
+		String total = "'totalcallist table table-bordered datatable dataTable'";
+		tableMultigroup(total); // table multi-group breakdown // total
+		String drop = "'dropcalllist table table-bordered datatable dataTable'";
+		tableMultigroup(drop); // table drop
 
-		List<WebElement> rows = driver
-				.findElements(By.xpath("//table[@class='totalcallist table table-bordered datatable dataTable']//tr"));
+		String customIndicators = "'customindicatorlist table table-bordered datatable dataTable'";
+		tableMultigroup(customIndicators);
 
-		List<WebElement> col = driver.findElements(
-				By.xpath("//table[@class='totalcallist table table-bordered datatable dataTable']//tr[2]//td"));
+		String queueStats = "'queuestats table table-bordered dataTable dataTable'";
+		tableMultigroup(queueStats);
+
+		String callStatusStat = "'callstatustable'";
+		tableMultigroupbyID(callStatusStat);
+	}
+
+	public void tableMultigroup(String cl) {
+// if class is defined for the table then use this method to fetch values
+		List<WebElement> rows = driver.findElements(By.xpath("//table[@class=" + cl + "]/tbody//tr"));
+		int rowcount = rows.size();
+
+		List<WebElement> col = driver.findElements(By.xpath("//table[@class=" + cl + "]/tbody//tr[1]//td"));
 		int colcount = col.size();
 
-		int rowcount = rows.size();
-		System.out.println(rowcount);
-		System.out.println("--printing table started----");
-		for (int count = 1; count < rowcount; count++) {
-			
+		System.out.println("-----------------------printing table started------------------------------");
+		for (int count = 1; count <= rowcount; count++) {
 
 			for (int r = 1; r <= colcount; r++) {
-				System.out.println(driver.findElement(
-						By.xpath("//table[@class='totalcallist table table-bordered datatable dataTable']//tr[" + count
-								+ "]//td[" + r + "]"))
+				System.out.print(driver
+						.findElement(By.xpath("//table[@class=" + cl + "]/tbody//tr[" + count + "]//td[" + r + "]"))
 						.getText());
 			}
+			System.out.println("");
 		}
-		System.out.println("--printing table completed--");
+		System.out.println("------------------------printing table completed-------------------------");
+	}
+
+	public void tableMultigroupbyID(String id) {
+		// if ID is defined for the table then use this method to fetch values
+		List<WebElement> rows = driver.findElements(By.xpath("//table[@id=" + id + "]/tbody//tr"));
+		int rowcount = rows.size();
+
+		List<WebElement> col = driver.findElements(By.xpath("//table[@id=" + id + "]/tbody//tr[1]//td"));
+		int colcount = col.size();
+
+		System.out.println("-----------------------printing table started------------------------------");
+		for (int count = 1; count <= rowcount; count++) {
+
+			for (int r = 1; r <= colcount; r++) {
+				System.out.print(
+						driver.findElement(By.xpath("//table[@id=" + id + "]/tbody//tr[" + count + "]//td[" + r + "]"))
+								.getText());
+			}
+			System.out.println("");
+		}
+		System.out.println("------------------------printing table completed-------------------------");
 	}
 
 }
